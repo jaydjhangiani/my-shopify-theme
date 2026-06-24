@@ -1,4 +1,12 @@
-
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "6a3bb789-ce10-45f5-ae67-e2063ef8c76b": {
@@ -11,13 +19,6 @@
             "heading_size": "h1"
           }
         },
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-1": {
-          "type": "text",
-          "settings": {
-            "text": "A theme and populated test store by Shopify to help you test commerce primitives.",
-            "text_style": "body"
-          }
-        },
         "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-2": {
           "type": "buttons",
           "settings": {
@@ -28,10 +29,17 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-1": {
+          "type": "text",
+          "settings": {
+            "text": "A theme and populated test store by Shopify to help you test commerce primitives.",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-0",   
+        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-0",
         "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-2",
         "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-1"
       ],
@@ -50,33 +58,6 @@
         "show_text_below": true
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "<strong>Featured products</strong>",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "automated-collection",
-        "products_to_show": 10,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "portrait",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "f1552b18-6017-4231-810d-74e61da22c37": {
       "type": "image-with-text",
       "blocks": {
@@ -90,7 +71,7 @@
         "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Try our wax subscription so you can fly high, but never dry.</p>",
+            "text": "<p><strong>Try our wax subscription so you can fly high, but never dry.</strong></p>",
             "text_style": "body"
           }
         },
@@ -121,7 +102,79 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
-    },  
+    },
+    "agent_caution_image_text": {
+      "type": "image-with-text",
+      "blocks": {
+        "agent_caution_heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "CAUTION - PLS USE OUR PRODUCTS SAFELY.",
+            "heading_size": "h1"
+          }
+        },
+        "agent_caution_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please read our safety policy before using our products.</p>",
+            "text_style": "body"
+          }
+        },
+        "agent_caution_button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read Policy",
+            "button_link": "/pages/policy"
+          }
+        }
+      },
+      "block_order": [
+        "agent_caution_heading",
+        "agent_caution_text",
+        "agent_caution_button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/theme_cover_image.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "<strong>Featured products</strong>",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "automated-collection",
+        "products_to_show": 10,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "38cdf60f-e431-43b5-aac3-7e6215447d67": {
       "type": "collection-list",
       "blocks": {
@@ -154,52 +207,7 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "agent_caution_image_text": {
-  "type": "image-with-text",
-  "blocks": {
-    "agent_caution_heading": {
-      "type": "heading",
-      "settings": {
-        "heading": "CAUTION - PLS USE OUR PRODUCTS SAFELY.",
-        "heading_size": "h1"
-      }
-    },
-    "agent_caution_text": {
-      "type": "text",
-      "settings": {
-        "text": "<p>Please read our safety policy before using our products.</p>",
-        "text_style": "body"
-      }
-    },
-    "agent_caution_button": {
-      "type": "button",
-      "settings": {
-        "button_label": "Read Policy",
-        "button_link": "/pages/policy"
-      }
     }
-  },
-  "block_order": [
-    "agent_caution_heading",
-    "agent_caution_text",
-    "agent_caution_button"
-  ],
-  "settings": {
-    "image": "shopify://shop_images/theme_cover_image.jpg",
-    "height": "adapt",
-    "desktop_image_width": "medium",
-    "layout": "text_first",
-    "desktop_content_position": "middle",
-    "desktop_content_alignment": "left",
-    "content_layout": "no-overlap",
-    "color_scheme": "accent-1",
-    "image_behavior": "none",
-    "mobile_content_alignment": "left",
-    "padding_top": 60,
-    "padding_bottom": 60
-  }
-}
   },
   "order": [
     "6a3bb789-ce10-45f5-ae67-e2063ef8c76b",
@@ -207,6 +215,5 @@
     "agent_caution_image_text",
     "featured_collection",
     "38cdf60f-e431-43b5-aac3-7e6215447d67"
-
   ]
 }
